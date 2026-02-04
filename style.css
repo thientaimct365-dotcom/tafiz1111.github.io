@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Times New Roman", serif;
+    background-color: #ffffff;
+}
+
+/* ===== BANNER ===== */
+#banner {
+    background: url("images/banner.jpg") no-repeat center;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+}
+
+#banner h1 {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: darkred;
+    font-size: 28px;
+    background-color: rgba(255,255,255,0.75);
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+/* ===== SLOGAN ===== */
+#slogan {
+    display: flex;
+    background-color: #d9d9d9;
+    text-align: center;
+}
+
+.slogan-box {
+    width: 33.33%;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.slogan-box:hover {
+    transform: scale(1.05);
+}
+
+.slogan-box h3 {
+    font-size: 18px;
+}
+
+.slogan-box p {
+    font-size: 14px;
+}
+
+/* ===== CONTENT ===== */
+#content {
+    display: flex;
+    padding: 20px;
+}
+
+/* CỘT TRÁI */
+#left {
+    width: 30%;
+    padding-right: 20px;
+}
+
+#left h3 {
+    margin-bottom: 10px;
+}
+
+#left ul {
+    padding-left: 20px;
+}
+
+/* CỘT PHẢI */
+#right {
+    width: 70%;
+}
+
+.section {
+    width: 620px;              /* khóa độ rộng cho cân với ảnh */
+    margin-bottom: 30px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.section img {
+    width: 100%;               /* ảnh vừa khít khung */
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.section h3 {
+    margin: 10px 0;
+    color: #000080;
+    text-align: center;
+}
+
+.section p {
+    text-indent: 30px;
+    text-align: justify;       /* giống Word */
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+/* ===== FOOTER ===== */
+#footer {
+    display: flex;
+    background-color: #d9d9d9;
+    padding: 15px;
+    font-size: 14px;
+}
+
+#footer-left {
+    width: 50%;
+}
+
+#footer-right {
+    width: 50%;
+    text-align: right;
+}
+
+#footer a {
+    text-decoration: none;
+    color: blue;
+}
